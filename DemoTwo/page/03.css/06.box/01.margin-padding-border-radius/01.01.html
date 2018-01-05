@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title><meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.d1{
+				/*display: inline-block;*/
+				
+				height: 100px;
+				width: 300px;
+				background-color: #FF8A65;
+				
+				margin: 0px 10px 10px 20px;
+				padding: 10px;
+				/*border: 4px black solid;*/
+				border-left: 6px darkblue solid;
+				
+				/*border-radius:50% 50% 50% 0px;*/
+				border-radius:0px 10px 10px 0px;
+			}  
+			.img{
+				height: 50px;
+				width: 50px;
+				border: 1px red solid;
+				border-radius: 50%;
+				
+				margin-left: 10px;
+				vertical-align: top;
+				
+			}
+			.container div{
+				display:inline-block;
+			}
+			.container{
+				padding-top: 10px;
+				border:1px blue dashed;
+				/*width: 600px;*/
+				width: 40%;        /*占整个屏的40%,最小缩小到500px,则不在缩小*/
+				min-width: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="img"></div>
+			<div class="d1"></div>
+		</div>
+		<!--<div class="d1"></div>
+		<div class="d1"></div>
+		<div class="d1"></div>-->
+		
+	</body>
+</html>
