@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>display-flex</title>
+		
+		<style type="text/css">
+			
+			#container{
+				border: 1px salmon solid;
+				display: flex; /* 弹性布局*/
+				flex-flow: row nowrap;
+				
+				/*justify-content: center;*/
+				justify-content: space-between;
+			}
+			
+			.item{
+				height: 100px;
+				width: 100px;
+				background-color: #FFA000;
+				margin: 10px;
+				
+				text-align: center;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="container">
+			
+			<div class="item">A</div>
+			<div class="item">B</div>
+			<div class="item">C</div>
+			<div class="item">D</div>
+			<div class="item">E</div>
+			
+		</div>
+		
+	</body>
+</html>
